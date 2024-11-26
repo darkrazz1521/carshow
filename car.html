@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Showcase</title>
+    <link rel="stylesheet" href="car.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Car Showcase</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#features">Features</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="overview">
+        <h2>Car Overview</h2>
+        <div class="car-details">
+            <img id="carImage" src="carshow/BMW M8 OIP.jpg" alt="Car Image">
+            <div class="info">
+                <h3>Luxury Sports Car BMW M-8 compition</h3>
+                <p>Experience the speed and comfort of this high-end sports car.</p>
+                <button onclick="changeCarColor()">Change Car Color</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Car Gallery</h2>
+        <div class="gallery">
+            <img src="carshow/OIP (1).jpeg" alt="Blue Car" onclick="changeCarImage('car-blue.jpg')">
+            <img src="carshow/BMW-M8-Coupe-Fire-Red-005.webp" alt="Red Car" onclick="changeCarImage('car-red.jpg')">
+            <img src="carshow/BMW M8 OIP.jpg" alt="Black Car" onclick="changeCarImage('car-black.jpg')">
+        </div>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Top Speed: 250 mph</li>
+            <li>Engine: V8 Turbocharged</li>
+            <li>Seats: 2</li>
+            <li>Color Options: Blue, Red, Black</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Car Showcase. All rights reserved.</p>
+    </footer>
+
+    <script src="carshow.js"></script>
+</body>
+</html>

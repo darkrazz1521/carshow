@@ -1,0 +1,126 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Overview Section */
+#overview {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.car-details {
+    display: flex;
+    align-items: center;
+}
+
+.car-details img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.info {
+    max-width: 400px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Gallery Section */
+#gallery {
+    background-color: #eee;
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Features Section */
+#features {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#features ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#features ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
